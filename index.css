@@ -39,11 +39,12 @@ header .top-navbar ul li:hover{
 }
 header .bottom-nav ul{
     display:flex;
-    width:90%;
-    padding:10px 10px;
+    width:1500px;
+    padding:10px 0%;
     list-style-type:none;
     overflow-x:auto;
     white-space:nowrap;
+    
     
     
 }
@@ -90,7 +91,7 @@ header .bottom-nav ul{
 }
 .blogs article img{
     border:5px solid #d33a2c;
-    height:100px;
+    height:150px;
     border-radius:10px;
     margin-right:20px;
     
@@ -324,4 +325,22 @@ p{
 
 h1{
     font-size:1.2em;
+}
+
+@media screen and (max-width:800px){
+    .top{
+        width:100%;
+    }
+    .blogs article{
+        width:100%;
+    }
+    .contacts{
+        flex-wrap:wrap;
+    }
+    .contact-form{
+        width:90%;
+    }
+    .contact{
+        width: 90%;
+    }
 }
